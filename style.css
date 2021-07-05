@@ -6,7 +6,7 @@ h1{
     font-size: 38px;
 }
 h2{
-    font-size: 32px;
+    font-size: 26px;
 }
 .orange-color{
     color: orange;
@@ -45,15 +45,37 @@ p{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.milestone-achiev{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.expert-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .expert-item{
+    width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    box-shadow: 10px 10px 40px gray;
 }
 #full-stack-dev{
-    margin-right: 40px;
-
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,orange);
+    border-image-slice: 1;
 }
 #baby-web-dev{
-
+    border-left: 10px solid;
+    border-image: linear-gradient(black, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
